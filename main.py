@@ -1,9 +1,9 @@
-from fastapi import FastAPI, File
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import io
+#import io
 import random
-import os
-from fastapi.responses import StreamingResponse
+#import os
+#from fastapi.responses import StreamingResponse
 
 app = FastAPI()
 
